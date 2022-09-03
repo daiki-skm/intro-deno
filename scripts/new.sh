@@ -1,3 +1,3 @@
-touch "$argv.ts" &&
-code "$argv.ts" ||
+touch "./src/$argv.ts" &&
+code "./src/$argv.ts" ||
 echo "fail"
